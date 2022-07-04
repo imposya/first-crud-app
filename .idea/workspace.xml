@@ -9,11 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2087b761-ac0b-474f-9026-7c0e99f92e80" name="Changes" comment="first CRUD app&#10;Creating READ func with DAO(ArrayList)">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+    <list default="true" id="2087b761-ac0b-474f-9026-7c0e99f92e80" name="Changes" comment="first CRUD app CREATE">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/dao/PersonDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +33,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -56,7 +63,8 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.applicationServers"
+    "settings.editor.selected.configurable": "preferences.applicationServers",
+    "spring.configuration.checksum": "fbe567fb2d15559dd2bf6ad7fb0f5d30"
   }
 }]]></component>
   <component name="RunManager">
@@ -156,7 +164,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656866438465</updated>
-      <workItem from="1656866440516" duration="5741000" />
+      <workItem from="1656866440516" duration="6022000" />
+      <workItem from="1656956930185" duration="3787000" />
     </task>
     <task id="LOCAL-00001" summary="first CRUD app&#10;Creating READ func with DAO(ArrayList)">
       <created>1656869243276</created>
@@ -165,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656869243276</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first CRUD app CREATE">
+      <created>1656884127582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656884127583</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +200,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first CRUD app&#10;Creating READ func with DAO(ArrayList)" />
-    <option name="LAST_COMMIT_MESSAGE" value="first CRUD app&#10;Creating READ func with DAO(ArrayList)" />
+    <MESSAGE value="first CRUD app CREATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="first CRUD app CREATE" />
   </component>
 </project>
