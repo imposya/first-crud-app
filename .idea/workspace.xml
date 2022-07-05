@@ -9,11 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2087b761-ac0b-474f-9026-7c0e99f92e80" name="Changes" comment="JdbcTemplate + own RowMapper">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
+    <list default="true" id="2087b761-ac0b-474f-9026-7c0e99f92e80" name="Changes" comment="Setup with Environment and Resources">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/controllers/BatchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -170,7 +170,7 @@
       <updated>1656866438465</updated>
       <workItem from="1656866440516" duration="6022000" />
       <workItem from="1656956930185" duration="12119000" />
-      <workItem from="1657043514566" duration="2756000" />
+      <workItem from="1657043514566" duration="4779000" />
     </task>
     <task id="LOCAL-00001" summary="first CRUD app&#10;Creating READ func with DAO(ArrayList)">
       <created>1656869243276</created>
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657045029874</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Setup with Environment and Resources">
+      <created>1657046581141</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657046581141</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +253,7 @@
     <MESSAGE value="JDBC instead of ArrayList" />
     <MESSAGE value="JDBC CRUD APP Stmt vs PreparedStmt" />
     <MESSAGE value="JdbcTemplate + own RowMapper" />
-    <option name="LAST_COMMIT_MESSAGE" value="JdbcTemplate + own RowMapper" />
+    <MESSAGE value="Setup with Environment and Resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup with Environment and Resources" />
   </component>
 </project>
