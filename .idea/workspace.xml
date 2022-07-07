@@ -9,11 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2087b761-ac0b-474f-9026-7c0e99f92e80" name="Changes" comment="Batch Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/util/PersonValidator.java" afterDir="false" />
+    <list default="true" id="2087b761-ac0b-474f-9026-7c0e99f92e80" name="Changes" comment="Spring Validator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +173,7 @@
       <workItem from="1656956930185" duration="12119000" />
       <workItem from="1657043514566" duration="9947000" />
       <workItem from="1657103070285" duration="587000" />
-      <workItem from="1657213451282" duration="4489000" />
+      <workItem from="1657213451282" duration="5717000" />
     </task>
     <task id="LOCAL-00001" summary="first CRUD app&#10;Creating READ func with DAO(ArrayList)">
       <created>1656869243276</created>
@@ -237,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657049868169</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Spring Validator">
+      <created>1657222031748</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657222031748</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +272,7 @@
     <MESSAGE value="JdbcTemplate + own RowMapper" />
     <MESSAGE value="Setup with Environment and Resources" />
     <MESSAGE value="Batch Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Batch Test" />
+    <MESSAGE value="Spring Validator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Validator" />
   </component>
 </project>
