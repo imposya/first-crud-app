@@ -22,7 +22,7 @@ public class BatchController {
     public String index() {
         return "batch/index";
     }
-    @GetMapping("/without")
+    /*@GetMapping("/without")
     public String withoutBatch() {
         personDAO.testMultipleUpdate();
         return "redirect:/people";
@@ -32,5 +32,5 @@ public class BatchController {
     public String withBatch() {
         personDAO.testBatchUpdate();
         return "redirect:/people";
-    }
+    }*/
 }
