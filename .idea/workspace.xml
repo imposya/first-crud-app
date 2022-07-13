@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2087b761-ac0b-474f-9026-7c0e99f92e80" name="Changes" comment="Spring Data JPA with custom query">
+    <list default="true" id="2087b761-ac0b-474f-9026-7c0e99f92e80" name="Changes" comment="DateTime in Spring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/models/Mood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/services/PeopleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/services/PeopleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,7 @@
         <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -185,7 +185,7 @@
       <workItem from="1657630855675" duration="4957000" />
       <workItem from="1657640292627" duration="6000" />
       <workItem from="1657640310365" duration="2673000" />
-      <workItem from="1657721924275" duration="715000" />
+      <workItem from="1657721924275" duration="1760000" />
     </task>
     <task id="LOCAL-00001" summary="first CRUD app&#10;Creating READ func with DAO(ArrayList)">
       <created>1656869243276</created>
@@ -285,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657642061846</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="DateTime in Spring">
+      <created>1657722889072</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657722889072</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +324,8 @@
     <MESSAGE value="Hibernate app" />
     <MESSAGE value="Spring Data JPA" />
     <MESSAGE value="Spring Data JPA with custom query" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Data JPA with custom query" />
+    <MESSAGE value="DateTime in Spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="DateTime in Spring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
