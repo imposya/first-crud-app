@@ -9,15 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2087b761-ac0b-474f-9026-7c0e99f92e80" name="Changes" comment="Spring Data JPA">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/models/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/repositories/ItemsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/services/ItemService.java" afterDir="false" />
+    <list default="true" id="2087b761-ac0b-474f-9026-7c0e99f92e80" name="Changes" comment="Spring Data JPA with custom query">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/repositories/PeopleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/repositories/PeopleRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/services/PeopleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/services/PeopleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +184,8 @@
       <workItem from="1657545559435" duration="3874000" />
       <workItem from="1657630855675" duration="4957000" />
       <workItem from="1657640292627" duration="6000" />
-      <workItem from="1657640310365" duration="1712000" />
+      <workItem from="1657640310365" duration="2673000" />
+      <workItem from="1657721924275" duration="715000" />
     </task>
     <task id="LOCAL-00001" summary="first CRUD app&#10;Creating READ func with DAO(ArrayList)">
       <created>1656869243276</created>
@@ -281,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657640262539</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Spring Data JPA with custom query">
+      <created>1657642061846</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657642061846</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +316,8 @@
     <MESSAGE value="Patten validation" />
     <MESSAGE value="Hibernate app" />
     <MESSAGE value="Spring Data JPA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Data JPA" />
+    <MESSAGE value="Spring Data JPA with custom query" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Data JPA with custom query" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -326,11 +331,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/services/ItemService.java</url>
           <line>27</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/imposya/firstcrudapp/services/PeopleService.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
